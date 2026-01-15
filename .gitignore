@@ -1,1 +1,12 @@
+# 忽略 Mac 系統檔案
+.DS_Store
+
+# 忽略 Node 套件 (React 專案必備)
 node_modules/
+
+# 忽略打包後的檔案
+build/
+dist/
+
+# 忽略私密設定檔
+.env
