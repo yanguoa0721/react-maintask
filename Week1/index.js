@@ -97,7 +97,7 @@ function App() {
                     {tempProduct ? (
                         <div className="card">
                             <img src={tempProduct.imageUrl}
-                                className="card-img-top"
+                                className="card-img-top mx-auto"
                                 style={{ height: "300px", width: "300px" }}
                                 alt="mainpic" />
                             <div className="card-body">
